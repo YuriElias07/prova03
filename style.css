@@ -1,0 +1,53 @@
+body {
+    position: absolute;
+    background-color: black;
+    background-image: url(https://media.licdn.com/dms/image/C4E1BAQENyMtCZIOSNg/company-background_10000/0/1584333964739/infinityschool_cover?e=2147483647&v=beta&t=DZ-rCJBh5Z5Kez8MOY6Pesa_H8H2TbnZAOjletnBUwE);
+    background-size: cover;
+    z-index: -1;
+}
+
+  .caixa_maior {
+    position: absolute;
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 430px;
+    padding: 50px 80px;
+    background-color: red;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caixa_maior img{
+    height: 80px;
+    margin-bottom: 80px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #333;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
